@@ -67,6 +67,11 @@ a, a:hover, a:active, a:visited
     -ms-transform: scaleX(-1);
     }
 
+#knight_pic
+{
+    height: 20px;
+}
+
 /* MAIN --------------------------- */
 
 main
