@@ -67,11 +67,6 @@ a, a:hover, a:active, a:visited
     -ms-transform: scaleX(-1);
     }
 
-#knight_pic
-{
-    height: 20px;
-}
-
 /* MAIN --------------------------- */
 
 main
@@ -93,7 +88,7 @@ circle
 
 #tooltip 
     { 
-    font-size: .5em;
+    font-size: 1em;
     background-color: white;
     border: 1px solid;
     color: #212121;
@@ -108,7 +103,7 @@ circle
 #sunburst_container
     {
     margin: 2em 0;
-    font-size: .5em;
+    font-size: .75em;
     transition: all 0.7s ease;
     -webkit-transition: all 0.7s ease;
     }
@@ -117,7 +112,7 @@ circle
         {
         #sunburst_container 
             {
-            font-size: .25em;
+            font-size: .5em;
             }
         }
 
@@ -157,7 +152,7 @@ circle
 .btn-cta, btn-cta:visited
     {
     background-color: transparent;
-    border: 1px solid #212121;
+    border: 2px solid #212121;
     border-radius: 0;
     color: #212121;
     margin: 1em .5em 0 .5em;
@@ -168,40 +163,10 @@ circle
         
 .btn-cta:hover
     {
-    background-color: #fff;
-    }
-      
-.btn-cta:active
-    {
-    background-color: #f44336;
-    color: #212121;
-    box-shadow: 0px 0px 20px rgba(255,255,255,1)
+    background-color: #ffac98;
+    border-color: #ffac98
     }
         
-.plus
-    {
-    border-right: 2px solid #212121;  
-/*    opacity: 0.5;*/
-    margin: 0 .5em 0 0;
-    padding-right: .5em
-    }
-
-#attorney
-    {
-    border-bottom: 2px dotted;
-    padding-bottom: .25em
-    }
-
-#controls
-    {
-    cursor: pointer;
-    margin: 2em .5em  0 .5em;  
-    }
-
-@media (max-device-width : 667px)
-    {
-        #controls { display: none }
-    }
 
 footer
     {
