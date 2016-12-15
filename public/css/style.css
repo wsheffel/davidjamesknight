@@ -1,0 +1,220 @@
+/*
+:root
+    {
+    --white: #fff;
+    --black: #212121;
+    --grey:  #e2e2e2;
+    --red:   #ffac98;
+    --blue:  #c8e6f6;
+    }
+*/
+
+body 
+    {
+    color: #212121;    
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    padding-top: 50px;
+    }
+
+h1, h2, h3
+    {
+    font-family: 'Droid Serif', serif
+    }
+
+a, a:hover, a:active, a:visited
+    {
+    color: #fff;
+    }
+        
+/* NAV --------------------------- */
+
+.navbar-default 
+    {
+    background-color: #ffac98; /*#d32f2f;*/
+    border: none
+    }
+
+.navbar-brand
+    {
+    color: #212121 !important;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    }
+        
+.navbar-default .navbar-nav > li > a 
+    {
+    color: #212121;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease
+    }
+        
+.navbar-default .navbar-nav > li > a:hover
+    {
+    color: #fff;
+    }
+
+#knight_icon
+    {
+/*    margin-top: -.2em;*/
+    margin-right: -.2em;
+    vertical-align: bottom;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    }
+
+/* MAIN --------------------------- */
+
+main
+    {
+    background-color: #fff;
+    }
+
+circle,
+path 
+    {
+    cursor: pointer;
+    }
+
+circle 
+    {
+    fill: none;
+    pointer-events: all;
+    }
+
+#tooltip 
+    { 
+    font-size: .5em;
+    background-color: white;
+    border: 1px solid;
+    color: #212121;
+    padding: .5em 1.25em;
+    text-align: center;
+/*
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+*/
+    }
+
+#sunburst_container
+    {
+    margin: 2em 0;
+    font-size: .5em;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    }
+
+    @media only screen and (max-width: 500px) 
+        {
+        #sunburst_container 
+            {
+            font-size: .25em;
+            }
+        }
+
+#sunburst
+    {
+    font-family: 'Lato', sans-serif;
+
+    }
+
+
+
+#hero
+    {
+    color: #212121;
+    font-family: 'Droid Serif', serif;
+    font-size: 2em;
+    text-shadow: 0px 0px 20px rgba(255,255,255,.1);
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    margin-top: 1em;
+    } 
+        
+    @media only screen and (max-width: 500px) 
+        {
+        #hero 
+            {
+            font-size: 1.5em
+            }
+        }
+
+#hero h4
+    {
+    line-height: 1.5;
+    }
+        
+        
+.btn-cta, btn-cta:visited
+    {
+    background-color: transparent;
+    border: 1px solid #212121;
+    border-radius: 0;
+    color: #212121;
+    margin: 1em .5em 0 .5em;
+    padding: .5em 1.25em;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    }
+        
+.btn-cta:hover
+    {
+    background-color: #fff;
+    }
+      
+.btn-cta:active
+    {
+    background-color: #f44336;
+    color: #212121;
+    box-shadow: 0px 0px 20px rgba(255,255,255,1)
+    }
+        
+.plus
+    {
+    border-right: 2px solid #212121;  
+/*    opacity: 0.5;*/
+    margin: 0 .5em 0 0;
+    padding-right: .5em
+    }
+
+#attorney
+    {
+    border-bottom: 2px dotted;
+    padding-bottom: .25em
+    }
+
+#controls
+    {
+    cursor: pointer;
+    margin: 2em .5em  0 .5em;  
+    }
+
+@media (max-device-width : 667px)
+    {
+        #controls { display: none }
+    }
+
+footer
+    {
+    color: #e2e2e2;
+    font-size: .5em;
+    padding: 4em 0;
+    }
+        
+/* ICONS ------------------- */
+        
+#all-icons
+    {
+    margin-top: 2em;
+    padding: 0;
+    }
+        
+.icon-row
+    {
+        margin: 14px 0px;
+        padding: 1em 0;
+    }

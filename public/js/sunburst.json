@@ -1,0 +1,215 @@
+{
+    "name": "flare",
+    "description": "flare",
+    "children":
+    [   {
+        "name": "PHP", 
+        "description": "PHP", 
+        "size": 1
+        },
+        {
+        "name": "WordPress", 
+        "description": "WordPress", 
+        "size": 3
+        },
+        {
+        "name": "Virtual",
+        "description": "Virtualization",
+        "children":
+        [   
+            {
+            "name": "MAMP", 
+            "description": "MAMP", 
+            "size": 3
+            },
+            {
+            "name": "Docker", 
+            "description": "Docker", 
+            "size": 1
+            }
+        ]
+        },
+        {
+        "name": "Design",
+        "description": "Design",
+        "children":
+        [   {
+            "name": "Draw", 
+            "description": "Adobe Draw (iPad Pro)", 
+            "size": 3
+            },
+            {
+            "name": "Paper 53", 
+            "description": "Paper 53 (iPad Pro)", 
+            "size": 3
+            },
+            {
+            "name": "Photoshop", 
+            "description": "Adobe Photoshop", 
+            "size": 3
+            },
+            {
+            "name": "Illustrator", 
+            "description": "Adobe Illustrator", 
+            "size": 2
+            },
+            {
+            "name": "Affinity", 
+            "description": "Affinity Designer", 
+            "size": 2
+            },
+            {
+            "name": "Sketch", 
+            "description": "Sketch", 
+            "size": 1
+            }
+        ]
+        },
+        {
+        "name": "Prototyping",
+        "description": "Prototyping",
+        "children": 
+        [   {
+            "name": "POP", 
+            "description": "POP for iOS", 
+            "size": 2
+            },
+            {
+            "name": "Invision", 
+            "description": "Invision", 
+            "size": 2
+            },
+            {
+            "name": "Proto.io", 
+            "description": "Proto.io", 
+            "size": 1
+            },
+            {
+            "name": "Principle", 
+            "description": "Proto.io", 
+            "size": 1
+            }
+        ]
+        },
+        {
+        "name": "JavaScript",
+        "description": "JavaScript",
+        "children": 
+        [   {
+            "name": "JavaScript", 
+            "description": "JavaScript",
+            "size": 2
+            },
+            {
+            "name": "JQuery", 
+            "description": "JQuery",
+            "size": 3
+            },
+            {
+            "name": "Ajax", 
+            "description": "Ajax",
+            "size": 2
+            },
+            {
+            "name": "NodeJS", 
+            "description": "NodeJS",
+            "size": 2
+            },
+            {
+            "name": "D3", 
+            "description": "D3",
+            "size": 1
+            },
+            {
+            "name": "Angular 1", 
+            "description": "Angular 1",
+            "size": 1
+            }
+        ]
+        },
+        {
+        "name": "Ruby",
+        "description": "Ruby",
+        "children": 
+        [   {
+            "name": "Ruby 2.3", 
+            "description": "Ruby 2.3",
+            "size": 2
+            },
+            {
+            "name": "Sinatra", 
+            "description": "Sinatra",
+            "size": 3
+            },
+            {
+            "name": "Rails", 
+            "description": "Ruby on Rails",
+            "size": 2
+            },
+            {
+            "name": "PostgreSQL", 
+            "description": "PostgreSQL",
+            "size": 2
+            },
+            {
+            "name": "RSpec", 
+            "description": "RSpec",
+            "size": 1
+            }
+        ]
+        },
+        {
+        "name": "HTML/CSS",
+        "description": "HTML",
+        "children": 
+        [   {
+            "name": "HTML5", 
+            "description": "HTML5",
+            "size": 3
+            },
+            {
+            "name": "Haml", 
+            "description": "Haml",
+            "size": 1
+            },
+            {
+            "name": "Bootstrap", 
+            "description": "Bootstrap 3 & 4",
+            "size": 3
+            },
+            {
+            "name": "CSS3", 
+            "description": "CSS3",
+            "size": 3
+            },
+            {
+            "name": "Sass", 
+            "description": "Sass",
+            "size": 1
+            }
+        ]
+        },
+        {
+        "name": "OS",
+        "description": "Operating Systems",
+        "children": 
+        [   {
+            "name": "Linux", 
+            "description": "Linux",
+            "size": 2
+            },
+            {
+            "name": "Mac OS X", 
+            "description": "OS X",
+            "size": 3
+            },
+            {
+            "name": "Windows", 
+            "description": "Windows",
+            "size": 2
+            }
+        ]
+        }
+   ]
+}  
+

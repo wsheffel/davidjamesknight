@@ -1,0 +1,85 @@
+<html lang="en">
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>David James Knight</title>
+        <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./public/css/style.css" rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./public/fa/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body> 
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="navbar-brand"><i class="glyphicon glyphicon-knight" id="knight_icon"></i></span><span class="navbar-brand" title="David James Knight"> David James Knight</span>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" target="_blank" class="fa fa-nav fa-envelope-o contact" aria-hidden="true" title="Contact"></a></li>
+                        <li><a href="https://github.com/davidjamesknight" target="_blank" class="fa fa-nav fa-github" aria-hidden="true" title="GitHub"></a></li>
+                        <li><a href="https://www.twitter.com/KnightDavidJ" target="_blank" class="fa fa-nav fa-twitter" aria-hidden="true" title="Twitter"></a></li>
+                        <li><a href="https://www.linkedin.com/in/davidjamesknightesq" target="_blank" class="fa fa-nav fa-linkedin-square" aria-hidden="true" title="LinkedIn"></a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+            
+        <main>
+            <div class="container-fluid">  
+               <div class="text-center">
+                    <div class="row" id="hero">  
+                        I solve complex problems.
+                    </div>
+                    <div class="row" id="sunburst_container">
+                        <div id="sunburst"></div>
+                    </div>
+                    <div class="row">
+                        <a href="#"><button type="button" class="btn contact btn-cta">Contact Me</button></a>    
+                    </div>
+            </div>
+        </main>
+        
+        <footer class="container-fluid contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>© <span id="year"></span> David James Knight</p>
+                    </div>
+                </div>
+            </div>
+            <script src="./public/js/index.js"></script>
+            <script src="http://d3js.org/d3.v3.min.js"></script>
+            <script src="./public/js/sunburst.js"></script>
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-61359232-1', 'auto');
+              ga('send', 'pageview');
+
+            </script>
+        </footer>
+
+    </body>
+</html>
+
