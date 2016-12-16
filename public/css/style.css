@@ -166,7 +166,19 @@ circle
     background-color: #ffac98;
     border-color: #ffac98
     }
-        
+    
+.fa
+    {
+    color: #e2e2e2;
+    padding: .5em;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    }
+
+.fa:hover
+    {
+    color: #212121
+    }
 
 footer
     {

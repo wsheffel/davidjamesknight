@@ -10,7 +10,7 @@ function filter_min_arc_size_text(d, i) {return (d.dx*d.depth*radius/3)>14};
 
 // Colors
 var hue = d3.scale.ordinal()
-    .domain(["Design", "HTML/CSS", "JavaScript", "OS", "PHP", "Prototyping", "Ruby", "Virtualization", "WordPress"])
+    .domain(["Design", "HTML/CSS", "JavaScript", "PHP", "Prototyping", "Ruby"])
     .range(["#607d8b", "#d32f2f", "#b6b6b6"]);
 
 var luminance = d3.scale.sqrt()
@@ -92,7 +92,7 @@ function tooltipXPosition()
     {   return x - (tooltip_midpoint * 2) - 14       
     }
     else 
-    { return x - tooltip_midpoint - 14
+    {   return x - tooltip_midpoint - 14
     }
 }
 

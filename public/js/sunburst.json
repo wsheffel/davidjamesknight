@@ -5,30 +5,36 @@
     [   {
         "name": "PHP", 
         "description": "PHP", 
-        "size": 1
-        },
-        {
-        "name": "WordPress", 
-        "description": "WordPress", 
-        "size": 3
-        },
-        {
-        "name": "Virtual",
-        "description": "Virtualization",
         "children":
         [   
             {
-            "name": "MAMP", 
-            "description": "MAMP", 
+            "name": "PHP 5.X", 
+            "description": "PHP 5.4+", 
+            "size": 1
+            },
+            {
+            "name": "Phalcon", 
+            "description": "Phalcon", 
+            "size": 1
+            },
+            {
+            "name": "WordPress", 
+            "description": "WordPress", 
             "size": 3
             },
             {
-            "name": "Docker", 
-            "description": "Docker", 
-            "size": 1
+            "name": "MAMP", 
+            "description": "MAMP", 
+            "size": 2
+            },
+            {
+            "name": "MySQL", 
+            "description": "MySQL", 
+            "size": 2
             }
         ]
         },
+        
         {
         "name": "Design",
         "description": "Design",
@@ -134,7 +140,7 @@
         [   {
             "name": "Ruby 2.3", 
             "description": "Ruby 2.3",
-            "size": 2
+            "size": 3
             },
             {
             "name": "Sinatra", 
@@ -186,27 +192,6 @@
             "name": "Sass", 
             "description": "Sass",
             "size": 1
-            }
-        ]
-        },
-        {
-        "name": "OS",
-        "description": "Operating Systems",
-        "children": 
-        [   {
-            "name": "Linux", 
-            "description": "Linux",
-            "size": 2
-            },
-            {
-            "name": "Mac OS X", 
-            "description": "OS X",
-            "size": 3
-            },
-            {
-            "name": "Windows", 
-            "description": "Windows",
-            "size": 2
             }
         ]
         }
