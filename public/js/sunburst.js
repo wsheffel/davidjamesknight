@@ -49,7 +49,7 @@ function format_number(x) {
 
 function format_description(d)
 {   var description = d.description;
-    return  '<b>' + d.description + '</b> (' + experienceLevel(d.size) + ')';
+    return  '<strong>' + d.description + '</strong> (' + experienceLevel(d.size) + ')';
 }
 
 function experienceLevel(n)
@@ -72,14 +72,13 @@ function mouseOverArc(d)
 	tooltip.html(format_description(d));
     return tooltip.transition()
         .duration(50)
-        .style("display", "block")
-        .style("opacity", 0.9);
+        .style("opacity", 1);
 }
 
 function mouseOutArc(){
 	d3.select(this).attr("stroke","")
     return tooltip
-        .style("display", "none")
+        .style("opacity", 0);
 }
 
 // Prevent tooltip from overflowing offscreen
@@ -89,8 +88,8 @@ function tooltipXPosition()
     if (x - tooltip_midpoint - 14 < 0) // On the left...
     {   return 0       
     }
-    else if (x + (tooltip_midpoint) - 14 > diameter) // On the right...
-    {   return x - (tooltip_midpoint * 2)        
+    else if (x + (tooltip_midpoint) - 14 > $(document).width()) // On the right...
+    {   return x - (tooltip_midpoint * 2) - 14       
     }
     else 
     { return x - tooltip_midpoint - 14
