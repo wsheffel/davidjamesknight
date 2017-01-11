@@ -1,0 +1,41 @@
+html {
+    background: #03A9F4;
+    color: #fff;
+    font-size: 16px
+}
+
+main {
+    height: 100%
+}
+
+#parent {
+    height: 100%
+}
+
+#child {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%)
+}
+
+.chimes {
+    color: #1976D2;
+    font-family: 'Droid Serif', serif;
+    font-size: 7rem;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.glowing {
+    color: #fff;
+    text-shadow: 0px 0px 20px rgba(255,255,255,.9)
+}
+
+#controls {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+}
