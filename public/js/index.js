@@ -1,4 +1,6 @@
 $(function (){
+    const slider = document.querySelector("#controls input");
+    
     $("[data-toggle='tooltip']").tooltip();
     
     $("#year").text(function(){
@@ -12,14 +14,11 @@ $(function (){
         window.location.href = "mailto:dev@davidjamesknight.com"
     });
     
-    const inputs = document.querySelectorAll("#controls input");
-
-    function rotateSunburst() {
+    function rotateSunburst(){
       const suffix = this.dataset.sizing || "";
-      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+      document.documentElement.style.setProperty("--rotate", this.value + suffix); // Change the value of the CSS variable
     }
 
-    inputs.forEach(input => input.addEventListener('change', rotateSunburst));
-    inputs.forEach(input => input.addEventListener('mousemove', rotateSunburst));
-
+    slider.addEventListener('change', rotateSunburst);
+    slider.addEventListener('mousemove', rotateSunburst);
 })
