@@ -67,8 +67,8 @@ function computeTextRotation(d) {
 	return angle;
 }
 
-function mouseOverArc(d) 
-{   d3.select(this).attr("stroke","black")
+function mouseOverArc(d) {
+   d3.select(this).attr("stroke","black")
 	tooltip.html(format_description(d));
     return tooltip.transition()
         .duration(50)
@@ -77,7 +77,7 @@ function mouseOverArc(d)
 
 function mouseOutArc(){
 	d3.select(this).attr("stroke","")
-    return tooltip
+    return tooltip.transition()
         .style("opacity", 0);
 }
 
@@ -85,14 +85,12 @@ function mouseOutArc(){
 function tooltipXPosition()
 {   var x = d3.event.pageX;
     var tooltip_midpoint = ($("#tooltip").width()/2);
-    if (x - tooltip_midpoint - 14 < 0) // On the left...
-    {   return 0       
-    }
-    else if (x + (tooltip_midpoint) - 14 > $(document).width()) // On the right...
-    {   return x - (tooltip_midpoint * 2) - 14       
-    }
-    else 
-    {   return x - tooltip_midpoint - 14
+    if (x - tooltip_midpoint - 14 < 0){ // On the left...
+        return 0       
+    } else if (x + (tooltip_midpoint) - 14 > $(document).width()){ // On the right...
+        return x - (tooltip_midpoint * 2) - 14       
+    } else { 
+        return x - tooltip_midpoint - 14
     }
 }
 

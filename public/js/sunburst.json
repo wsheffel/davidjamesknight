@@ -13,8 +13,8 @@
             "size": 1
             },
             {
-            "name": "Phalcon", 
-            "description": "Phalcon", 
+            "name": "Flight", 
+            "description": "Flight", 
             "size": 1
             },
             {
@@ -84,16 +84,6 @@
             "name": "Invision", 
             "description": "Invision", 
             "size": 2
-            },
-            {
-            "name": "Proto.io", 
-            "description": "Proto.io", 
-            "size": 1
-            },
-            {
-            "name": "Principle", 
-            "description": "Principle", 
-            "size": 1
             }
         ]
         },
@@ -102,8 +92,8 @@
         "description": "JavaScript",
         "children": 
         [   {
-            "name": "JavaScript", 
-            "description": "JavaScript",
+            "name": "ES6", 
+            "description": "ES6",
             "size": 2
             },
             {
@@ -112,8 +102,8 @@
             "size": 3
             },
             {
-            "name": "Ajax", 
-            "description": "Ajax",
+            "name": "Express", 
+            "description": "Express",
             "size": 2
             },
             {
@@ -127,8 +117,8 @@
             "size": 1
             },
             {
-            "name": "Angular 1", 
-            "description": "Angular 1",
+            "name": "React", 
+            "description": "React",
             "size": 1
             }
         ]
